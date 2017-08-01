@@ -1,0 +1,108 @@
+/* $Id: defaults.css,v 1.5 2007/10/02 12:10:40 dries Exp $ */
+
+/*
+** HTML elements
+*/
+form {
+  margin: 30px;
+  padding: 0;
+}
+h1 {
+ padding-left: 30px;
+}
+
+hr {
+  height: 1px;
+  border: 1px solid gray;
+}
+
+body {
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    background: #FFF;
+    color: #333;
+}
+
+p {	
+    margin: 25px 0;
+}
+img.ieda_logo {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+img.nsf_logo {
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+a:link {
+    color: #024a61;
+    text-decoration:none
+}
+a:visited {
+    color: #006983;
+    text-decoration:none
+}
+a:hover {
+    text-decoration:underline
+}
+
+
+
+/* table theming */
+
+table {
+  width:99%;
+  border:2px solid #024161;
+  border-collapse: collapse;
+  padding:0;
+  margin:5px 5px 10px 5px;
+}
+
+
+table th {
+  background-color:#92b9c5;
+  text-align: left; 
+  padding: 15px;
+  line-height:1.5em;
+  border: 1px solid black;
+}
+
+table tr, td {
+  padding: 2px 5px;
+  line-height:1.5em;
+  padding: 2px 5px;  
+  border: 0.5px solid black;
+}
+
+
+div.row {
+    padding: 10px;
+    position: relative;
+}
+div.title2 {
+    font-size: 100%;
+    font-weight: bold;
+    margin-top: 10px
+}
+
+/* Form Elements */
+
+#searchform {
+    width:170px;
+    float:right;
+    text-align:right;
+    padding-top:8px;
+    margin-right:10px;
+}
+
+
+#top {
+    padding:0;
+}
+
+
+
+
+
