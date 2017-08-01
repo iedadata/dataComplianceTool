@@ -1,5 +1,5 @@
 <html>
 <head>
-<meta HTTP-EQUIV="REFRESH" content="0; url=http://www.iedadata.org/">
+<meta HTTP-EQUIV="REFRESH" content="0; url=http://app.iedadata.org/dcr/report.php">
 </head>
 </html>
