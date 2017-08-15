@@ -1,7 +1,7 @@
 <table style="border-style: none; ">
 <tr style="border-style: none;">        
     <td  style="border-style: none; width: 65%"  >  Interdisciplinary Earth Data Alliance (IEDA) | <a href="https://www.iedadata.org/contact/">Contact</a>
-        <br /> Hosted at <a href="">Lamont-Doherty Earth Observatory</a> of <a href="">Columbia University</a>.
+        <br /> Hosted at <a href="http://www.ldeo.columbia.edu">Lamont-Doherty Earth Observatory</a> of <a href="http://www.columbia.edu">Columbia University</a>.
         <br />  A partnership between <a href="http://www.earthchem.org">EarthChem</a> and 
             <a href="http://www.marine-geo.org">Marine Geoscience Data System (MGDS)</a>.            
     </td> 
