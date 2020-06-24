@@ -32,7 +32,7 @@ if (isset($award_id)) {
 
 //FASTLANE AWARD QUERY
 //New! gather and display award information leveraging NSF Fastlane API:         	
-    $fastlane_text= file_get_contents("http://api.nsf.gov/services/v1/awards/$award_id.xml") or $fastlane_text=NULL;
+    $fastlane_text= @file_get_contents("http://api.nsf.gov/services/v1/awards/$award_id.xml") or $fastlane_text=NULL;
         $fastlane_xml=simplexml_load_string($fastlane_text);
         $lead_pi=$fastlane_xml->award->piFirstName." ".$fastlane_xml->award->piLastName;
         $award_title=$fastlane_xml->award->title;
